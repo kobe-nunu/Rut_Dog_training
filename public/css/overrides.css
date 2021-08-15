@@ -1,0 +1,89 @@
+/* General */
+
+#main{
+    background-color: #FFFDD0;
+  }
+
+#heading-override{
+  font-family: 'Ozrad CLM', serif;
+  font-size: 3rem;
+  text-shadow: 3px 3px 3px #ababab;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #161415
+}
+
+#subheader-override{
+  font-family: 'Journal CLM', serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+  
+/* --------------------------------------------------------------- */
+
+/* header */
+
+#header-override{
+    background-image:url("../assets/img/header-bg2.jpg");
+    background-size: auto;
+    transition: background-image 0.4s linear;
+  }
+
+#header-override:hover{
+    background-image:url("../assets/img/header-bg3.jpg");
+    background-size: auto;
+}
+
+#header-override:hover > #hoverride, #header-override:hover > #hoverride2, #header-override:hover > #hoverride1{
+    opacity: 1;
+}
+
+#hoverride, #hoverride1, #hoverride2{
+    opacity: 0;
+    transition: 0.7s;
+}
+
+#hoverride1{
+	color: #343434;
+    font-weight: bold;
+    font-family: "Audiowide", sans-serif;  
+	font-size: 4rem;
+	text-transform: uppercase;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #161415, 0 0 40px #161415, 0 0 50px #161415, 0 0 60px #161415, 0 0 70px #161415;
+}
+
+#hoverride2{
+	color: #343434;
+	font-weight: bold;
+	font-size: 3rem;
+	font-family: "Audiowide", sans-serif; 
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #161415, 0 0 40px #161415, 0 0 50px #161415, 0 0 60px #161415, 0 0 70px #161415;
+}
+
+
+
+/* --------------------------------------------------------------- */
+
+/* about */
+
+  #timeline-override{
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  #centered-override{
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    color: #e0eff2;
+    font: italic bold Georgia, Serif;
+    text-shadow: 2px 2px 20px #1f1cdf, -3px 4px 0 #0a0e27;
+  }
+
+
+/* --------------------------------------------------------------- */
+
+
+
+ 
